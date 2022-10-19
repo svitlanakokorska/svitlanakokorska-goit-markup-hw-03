@@ -1,0 +1,233 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+  
+}
+ul {
+  list-style: none;
+}
+/*Властивість кнопок*/
+button {
+  cursor: pointer;
+}
+address {
+  font-style: normal;
+}
+/*Властивості картинок*/
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/*Прибирає базові властивості посилань */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+:root {
+  --main-title-color: #ffffff;
+  --body-title-color: #212121;
+  --body-text-color: #757575;
+  --blue-title-color: #2196f3;
+}
+/* header */
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--body-title-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.contact-link-mail:hover,
+.contact-link-mail:focus,
+.contact-link-tel:hover,
+.contact-link-tel:focus{
+  color: var(--blue-title-color);
+}
+
+.header {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  color: var(--body-title-color);
+}
+/* Властивості навігації*/
+.header-nav-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:var(--body-title-color);
+}
+
+/*контакти*/
+ .contact-link-mail, .contact-link-tel {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color:  var(--body-text-color);
+}
+
+/*Акцент кольору на посилання studio*/
+.header-studio {
+  color:var(--blue-title-color)
+}
+/*Акцент кольору на посилання portfolio*/
+.header-portfolio {
+  color:var(--blue-title-color)
+}
+/*прибирає маркери*/
+.list {
+  marker: none;
+}
+.work-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.work-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+}
+
+.hero {
+  text-align: center;
+  background-color: #2f303a;
+  color: var(--main-title-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/*стилізація кнопки*/
+.btn {
+  background-color: var(--blue-title-color);
+}
+.color-header {
+  background: var(--grey);
+  width: 1600px;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.section-title-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+}
+.color-footer {
+  background-color: #2f303a;
+}
+.logo-studio {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 1);
+}
+.contacts,
+.color-tel-black,
+.color-mail-black,
+.studio-black,
+.color-studio-black {
+  color: var(--body-title-color);
+}
+.color-web {
+  color: #2196f3;
+}
+
+.color-studio,
+.color-address,
+.color-info {
+  color: var(--main-title-color);
+}
+
+
+.color-mail:hover,
+.color-mail:focus,
+.color-tel:hover,
+.color-tel:focus {
+  color: var(--blue-title-color);
+}
+
+.color-mail,
+.color-tel {
+  letter-spacing: 0.03em;
+  color:  var(--body-text-color);
+  }
+  .color-maps {
+  letter-spacing: 0.03em;
+  color:  var(--main-title-color);
+  }
+/*Портфоліо*/
+
+ .cursor .cursor-btn {
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: #f5f4fa;
+}
+.cursor-btn:hover, .cursor-btn:focus  {
+ color: var(--main-title-color);
+ background-color: var(--blue-title-color);
+ }
+
+
+
+/*portfolio-title  скриває заголовок*/
+.portfolio-title,
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.portfolio-title-list {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--body-text-color);
+}
