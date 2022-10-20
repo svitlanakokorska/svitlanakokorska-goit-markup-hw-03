@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    
     <!-- font-family-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,10 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@300;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"/>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="header">
     <header class="color-header">
-      <nav>
+      <div class="container header-container">
+      <nav class="header-navigation">
         <a href="./index.html" class="logo link"
           ><span class="color-web">Web</span>Studio</a
         >
@@ -46,117 +49,118 @@
           >
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <section class="portfolio">
-        <h1 class="portfolio-title">Портфоліо</h1>
-        <ul class="cursor list">
-          <li><button class="cursor-btn" type="button">Усі</button></li>
-          <li><button class="cursor-btn" type="button">Веб-сайти</button></li>
-          <li><button class="cursor-btn" type="button">Додатки</button></li>
-          <li><button class="cursor-btn" type="button">Дизайн</button></li>
-          <li><button class="cursor-btn" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="list">
-          <li>
-            <img
-              src="./images/технокряк.jpg"
-              alt="технокряк"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-title-list">Технокряк</h2>
-            <p class="portfolio-text">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/постер.jpg"
-              alt="постер"
-              width="370"
-              height="294"
-            />
-            <h2 class="portfolio-title-list" lang="en">
-              Постер New Orlean vs Golden Star
-            </h2>
-            <p class="portfolio-text">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/ресторан.jpg"
-              alt="ресторан"
-              width="370"
-              height="294"
-            />
-
-            <h2 class="portfolio-title-list" lang="en">Ресторан Seafood</h2>
-            <p class="portfolio-text">Додаток</p>
-          </li>
-          <li>
-            <img
-              src="./images/навушники.jpg"
-              alt="навушники"
-              width="370"
-              height="294"
-            />
-
-            <h2 class="portfolio-title-list" lang="en">Проєкт Prime</h2>
-            <p class="portfolio-text">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/проект.jpg"
-              alt="проект"
-              width="370"
-              height="294"
-            />
-
-            <h2 class="portfolio-title-list" lang="en">Проєкт Boxes</h2>
-            <p class="portfolio-text">Додаток</p>
-          </li>
-          <li>
-            <img
-              src="./images/монітор.jpg"
-              alt="монітор"
-              width="370"
-              height="294"
-            />
-
-            <h2 class="portfolio-title-list" lang="en">
-              Inspiration has no Borders
-            </h2>
-            <p class="portfolio-text">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/видання.jpg"
-              alt="видання"
-              width="370"
-              height="294"
-            />
-
-            <h2 class="portfolio-title-list" lang="en">
-              Видання Limited Edition
-            </h2>
-            <p class="portfolio-text">Дизайн</p>
-          </li>
-          <li>
-            <img src="./images/лаб.jpg" alt="лаб" width="370" height="294" />
-
-            <h2 class="portfolio-title-list" lang="en">Проєкт LAB</h2>
-            <p class="portfolio-text">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/бізнес.jpg"
-              alt="бізнес"
-              width="370"
-              height="294"
-            />
-
-            <h2 class="portfolio-title-list" lang="en">Growing Business</h2>
-            <p class="portfolio-text">Додаток</p>
-          </li>
-        </ul>
+        <div class="container"><h1 class="portfolio-title">Портфоліо</h1>
+          <ul class="cursor list">
+            <li class="button-list"><button class="cursor-btn" type="button">Усі</button></li>
+            <li class="button-list"><button class="cursor-btn" type="button">Веб-сайти</button></li>
+            <li class="button-list"><button class="cursor-btn" type="button">Додатки</button></li>
+            <li class="button-list"><button class="cursor-btn" type="button">Дизайн</button></li>
+            <li class="button-list"><button class="cursor-btn" type="button">Маркетинг</button></li>
+          </ul>
+          <ul class="gallery-list list">
+            <li class="list-item">
+              <img
+                src="./images/технокряк.jpg"
+                alt="технокряк"
+                width="370"
+                height="294"
+              />
+              <h2 class="portfolio-title-list">Технокряк</h2>
+              <p class="portfolio-text">Веб-сайт</p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/постер.jpg"
+                alt="постер"
+                width="370"
+                height="294"
+              />
+              <h2 class="portfolio-title-list" lang="en">
+                Постер New Orlean vs Golden Star
+              </h2>
+              <p class="portfolio-text">Дизайн</p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/ресторан.jpg"
+                alt="ресторан"
+                width="370"
+                height="294"
+              />
+  
+              <h2 class="portfolio-title-list" lang="en">Ресторан Seafood</h2>
+              <p class="portfolio-text">Додаток</p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/навушники.jpg"
+                alt="навушники"
+                width="370"
+                height="294"
+              />
+  
+              <h2 class="portfolio-title-list" lang="en">Проєкт Prime</h2>
+              <p class="portfolio-text">Маркетинг</p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/проект.jpg"
+                alt="проект"
+                width="370"
+                height="294"
+              />
+  
+              <h2 class="portfolio-title-list" lang="en">Проєкт Boxes</h2>
+              <p class="portfolio-text">Додаток</p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/монітор.jpg"
+                alt="монітор"
+                width="370"
+                height="294"
+              />
+  
+              <h2 class="portfolio-title-list" lang="en">
+                Inspiration has no Borders
+              </h2>
+              <p class="portfolio-text">Веб-сайт</p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/видання.jpg"
+                alt="видання"
+                width="370"
+                height="294"
+              />
+  
+              <h2 class="portfolio-title-list" lang="en">
+                Видання Limited Edition
+              </h2>
+              <p class="portfolio-text">Дизайн</p>
+            </li>
+            <li class="list-item">
+              <img src="./images/лаб.jpg" alt="лаб" width="370" height="294" />
+  
+              <h2 class="portfolio-title-list" lang="en">Проєкт LAB</h2>
+              <p class="portfolio-text">Маркетинг</p>
+            </li>
+            <li class="list-item">
+              <img
+                src="./images/бізнес.jpg"
+                alt="бізнес"
+                width="370"
+                height="294"
+              />
+  
+              <h2 class="portfolio-title-list" lang="en">Growing Business</h2>
+              <p class="portfolio-text">Додаток</p>
+            </li>
+          </ul></div>
       </section>
     </main>
     <footer class="color-footer">
@@ -171,7 +175,7 @@
           class="color-maps link"
           >м. Київ, пр-т Лесі Українки, 26</a
         >
-        <ul class="list">
+        <ul class="list-address">
           <li>
             <a href="mailto:info@devstudio.com" class="color-mail link"
               >info@devstudio.com</a
