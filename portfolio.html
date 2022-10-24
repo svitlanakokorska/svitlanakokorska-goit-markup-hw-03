@@ -13,11 +13,11 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@300;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-  <body class="header">
-    <header class="color-header">
+  <body>
+    <header class="header">
       <div class="container header-container">
       <nav class="header-navigation">
         <a href="./index.html" class="logo link"
@@ -52,7 +52,7 @@
       </div>
     </header>
     <main>
-      <section class="portfolio">
+      <section class="section portfolio">
         <div class="container"><h1 class="portfolio-title">Портфоліо</h1>
           <ul class="cursor list">
             <li class="button-list"><button class="cursor-btn" type="button">Усі</button></li>
@@ -61,109 +61,150 @@
             <li class="button-list"><button class="cursor-btn" type="button">Дизайн</button></li>
             <li class="button-list"><button class="cursor-btn" type="button">Маркетинг</button></li>
           </ul>
-          <ul class="gallery-list list">
-            <li class="list-item">
+          <ul class="card-set list">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/технокряк.jpg"
                 alt="технокряк"
-                width="370"
-                height="294"
-              />
+                            />
+              </div>
+              <div class="card-content">
               <h2 class="portfolio-title-list">Технокряк</h2>
               <p class="portfolio-text">Веб-сайт</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/постер.jpg"
                 alt="постер"
-                width="370"
-                height="294"
+                
               />
+              </div>
+              <div class="card-content">
               <h2 class="portfolio-title-list" lang="en">
                 Постер New Orlean vs Golden Star
               </h2>
               <p class="portfolio-text">Дизайн</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/ресторан.jpg"
                 alt="ресторан"
-                width="370"
-                height="294"
+               
               />
-  
+              </div>
+              <div class="card-content">
               <h2 class="portfolio-title-list" lang="en">Ресторан Seafood</h2>
               <p class="portfolio-text">Додаток</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/навушники.jpg"
                 alt="навушники"
-                width="370"
-                height="294"
+               
               />
-  
+               </div>
+               <div class="card-content">
               <h2 class="portfolio-title-list" lang="en">Проєкт Prime</h2>
               <p class="portfolio-text">Маркетинг</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/проект.jpg"
                 alt="проект"
-                width="370"
-                height="294"
+               
               />
-  
+              </div>
+              <div class="card-content">
               <h2 class="portfolio-title-list" lang="en">Проєкт Boxes</h2>
               <p class="portfolio-text">Додаток</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/монітор.jpg"
                 alt="монітор"
-                width="370"
-                height="294"
+               
               />
-  
+               </div>
+               <div class="card-content">
               <h2 class="portfolio-title-list" lang="en">
                 Inspiration has no Borders
               </h2>
               <p class="portfolio-text">Веб-сайт</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/видання.jpg"
                 alt="видання"
-                width="370"
-                height="294"
+               
               />
-  
+               </div>
+               <div class="card-content">
               <h2 class="portfolio-title-list" lang="en">
                 Видання Limited Edition
               </h2>
               <p class="portfolio-text">Дизайн</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
-              <img src="./images/лаб.jpg" alt="лаб" width="370" height="294" />
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
+              <img src="./images/лаб.jpg" alt="лаб"  />
+              </div>
+              <div class="card-content">
   
               <h2 class="portfolio-title-list" lang="en">Проєкт LAB</h2>
               <p class="portfolio-text">Маркетинг</p>
+              </div>
+              </article>
             </li>
-            <li class="list-item">
+            <li class="item">
+              <article class="card">
+                <div class="card-thumb">
               <img
                 src="./images/бізнес.jpg"
                 alt="бізнес"
-                width="370"
-                height="294"
+               
               />
+              </div>
+              <div class="card-content">
   
               <h2 class="portfolio-title-list" lang="en">Growing Business</h2>
               <p class="portfolio-text">Додаток</p>
+              </div>
+              </article>
             </li>
           </ul></div>
       </section>
     </main>
     <footer class="color-footer">
+      <div class="container">
       <a href="./index.html" class="logo-studio link"
         ><span class="color-web">Web</span>Studio</a
       >
@@ -188,6 +229,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
