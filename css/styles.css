@@ -26,7 +26,7 @@ img {
 ul,
 ol {
   margin: 0;
-  }
+}
 
 ul {
   list-style: none;
@@ -41,7 +41,6 @@ body {
 
 .section {
   padding: 94px 0;
-  
 }
 .container {
   width: 1200px;
@@ -63,20 +62,11 @@ body {
   margin: 0;
   display: flexbox;
 }
-.card {
-  box-shadow: var(--card-shadow);
-  border-radius: 4px;
-  overflow: hidden;
-  align-items: flex-start;
-}
+
 .card-content {
-  padding: 15px;
+  padding: 20px 24px;
 }
-.card-thumb {
-  max-width: 100%;
-  height: auto;
- 
-}
+
 .card-set {
   padding: 0;
   margin: 0;
@@ -84,14 +74,12 @@ body {
   flex-wrap: wrap;
   margin-left: calc(-1 * var(--card-set-gap));
   margin-top: calc(-1 * var(--card-set-gap));
-   list-style: none;
-  }
+  list-style: none;
+}
 
 .card-set > .item {
-  flex-basis: calc((100%-30px) / 4);
-  margin-left: var(--card-set-gap);
-  margin-top: var(--card-set-gap);
- 
+  width: calc((100% - 90px) / 3);
+  border: 1px solid #eeeeee;
 }
 
 .header-nav {
@@ -100,7 +88,7 @@ body {
   text-align: center;
   margin-left: 93px;
   padding-left: 0;
-  }
+}
 
 .header-container {
   display: flex;
@@ -123,7 +111,6 @@ body {
 /*Властивість кнопок*/
 button {
   cursor: pointer;
-  
 }
 address {
   font-style: normal;
@@ -133,7 +120,7 @@ address {
 .link {
   text-decoration: none;
   color: inherit;
- }
+}
 
 /* header */
 .logo {
@@ -153,7 +140,6 @@ address {
 .contact-link-tel:focus {
   color: var(--accent-color);
 }
-
 
 /* Властивості навігації*/
 .header-nav-link {
@@ -193,7 +179,8 @@ address {
   padding: 0;
   margin: 0;
   display: flex;
-  gap: var(--card-set-gap);
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 .img-list {
@@ -202,12 +189,6 @@ address {
   display: flex;
   gap: var(--card-set-gap);
 }
-/*Портфоліо*/
-.cursor {
-  padding: 50px;
-  text-align: center;
-  gap: 8px;
-  }
 
 .list-address {
   marker: none;
@@ -231,7 +212,7 @@ address {
   letter-spacing: 0.03em;
   color: var(--body-text-color);
   width: 270px;
-  }
+}
 
 .hero {
   text-align: center;
@@ -263,7 +244,6 @@ address {
   border: none;
   margin-top: 30px;
 }
-
 
 .section-title {
   font-size: 36px;
@@ -334,18 +314,24 @@ address {
   color: var(--main-title-color);
 }
 
- .button-list {
+.button-list {
   text-align: center;
+}
+.cursor {
+  display: flex;
+  margin: 100px 0 50px 0;
+  justify-content: center;
+  gap: 8px;
 }
 .cursor .cursor-btn {
   background: #f5f4fa;
   border-radius: 4px;
   border: #f5f4fa;
   display: inline-block;
-   min-width: 73px;
+  min-width: 73px;
   min-height: 38px;
   padding: 6px 25px 6px 25px;
- }
+}
 .cursor-btn:hover,
 .cursor-btn:focus {
   color: var(--main-title-color);
