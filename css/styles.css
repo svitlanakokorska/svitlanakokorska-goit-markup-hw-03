@@ -52,7 +52,7 @@ body {
 
 .header {
   padding: 24px 0;
-  display: flex;
+  border: 1px solid #ECECEC;
 }
 .header-navigation {
   display: flex;
@@ -68,18 +68,13 @@ body {
 }
 
 .card-set {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: calc(-1 * var(--card-set-gap));
-  margin-top: calc(-1 * var(--card-set-gap));
   list-style: none;
 }
 
 .card-set > .item {
   width: calc((100% - 90px) / 3);
   border: 1px solid #eeeeee;
+  background: #FFFFFF;
 }
 
 .header-nav {
@@ -107,7 +102,7 @@ body {
   row-gap: 15px;
   flex-wrap: wrap;
   column-gap: 15px;
-}
+ }
 /*Властивість кнопок*/
 button {
   cursor: pointer;
@@ -203,9 +198,11 @@ address {
   margin-bottom: 10px;
 }
 
-.section .work {
+.section > .work {
   padding-left: 215px;
   padding-right: 215px;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .work-text {
   line-height: 1.71;
@@ -229,6 +226,10 @@ address {
   text-align: center;
   text-transform: uppercase;
   margin: 0 auto;
+  width: 696px;
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*стилізація кнопки*/
 .btn {
@@ -250,7 +251,14 @@ address {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+}
+.command {
+  background: #F5F4FA;
+}
+.item-command > .name-work {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .section-title-name {
   font-weight: 500;
@@ -258,8 +266,12 @@ address {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  padding-top: 30px;
-  margin-bottom: 10px;
+   margin-bottom: 10px;
+}
+.img-list > .item-command {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #FFFFFF;
 }
 .section-text {
   font-size: 16px;
@@ -270,7 +282,7 @@ address {
 }
 .color-footer {
   background-color: #2f303a;
-  padding: 60px 1154px 60px 215px;
+  padding: 60px 0;
 }
 .logo-studio {
   font-family: "Raleway";
@@ -279,6 +291,7 @@ address {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 1);
+  margin-bottom: 20px;;
 }
 .contacts,
 .color-tel-black,
@@ -309,9 +322,13 @@ address {
   letter-spacing: 0.03em;
   color: var(--body-text-color);
 }
+.color-mail {
+  margin-bottom: 9px;
+}
 .color-maps {
   letter-spacing: 0.03em;
   color: var(--main-title-color);
+  margin-bottom: 9px;
 }
 
 .button-list {
@@ -319,7 +336,7 @@ address {
 }
 .cursor {
   display: flex;
-  margin: 100px 0 50px 0;
+  margin-bottom: 50px;
   justify-content: center;
   gap: 8px;
 }
