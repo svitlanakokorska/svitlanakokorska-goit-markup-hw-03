@@ -52,7 +52,7 @@ body {
 
 .header {
   padding: 24px 0;
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
 }
 .header-navigation {
   display: flex;
@@ -74,7 +74,7 @@ body {
 .card-set > .item {
   width: calc((100% - 60px) / 3);
   border: 1px solid #eeeeee;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .header-nav {
@@ -96,7 +96,6 @@ body {
   margin-left: auto;
   align-items: center;
 }
-
 
 /*Властивість кнопок*/
 button {
@@ -257,7 +256,7 @@ address {
   margin-bottom: 50px;
 }
 .command {
-  background: #F5F4FA;
+  background: #f5f4fa;
 }
 .item-command > .name-work {
   padding-top: 30px;
@@ -269,12 +268,13 @@ address {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 .img-list > .item-command {
   border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background: #ffffff;
 }
 .section-text {
   font-size: 16px;
@@ -294,7 +294,7 @@ address {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 1);
-  margin-bottom: 20px;;
+  margin-bottom: 20px;
 }
 .contacts,
 .color-tel-black,
