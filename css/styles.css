@@ -52,7 +52,7 @@ body {
 
 .header {
   padding: 24px 0;
-  border: 1px solid #ececec;
+  border: 1px solid  #ECECEC;
 }
 .header-navigation {
   display: flex;
@@ -73,8 +73,8 @@ body {
 
 .card-set > .item {
   width: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
-  background: #ffffff;
+  border: 1px solid  #EEEEEE;
+  background: #FFFFFF;
 }
 
 .header-nav {
